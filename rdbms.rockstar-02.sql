@@ -1,13 +1,12 @@
 -- !! Module: 15
 
--- Online Course Enrollment
+-- ?? Online Course Enrollment
 
 -- * DATABASE CREATION
 create database courseenrollment;
 
 
 -- * TABLE CREATION
-
 -- Students table
 create table students (
   student_id serial primary key,

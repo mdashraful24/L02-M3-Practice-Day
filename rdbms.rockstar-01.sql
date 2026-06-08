@@ -4,7 +4,6 @@
 create database bookstore;
 
 
-
 -- * TABLE CREATION
 create table customers (
   customer_id int primary key,
