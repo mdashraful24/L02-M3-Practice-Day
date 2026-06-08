@@ -1,9 +1,11 @@
--- DATABASE CREATION
+-- !! Module: 12, 13, & 14
+
+-- * DATABASE CREATION
 create database bookstore;
 
 
 
--- TABLE CREATION
+-- * TABLE CREATION
 create table customers (
   customer_id int primary key,
   first_name varchar(50),
@@ -35,7 +37,7 @@ create table orders (
 
 
 
--- DATASET TO INSERT
+-- * DATASET TO INSERT
 insert into customers (
   customer_id, first_name, last_name, email, city, country, registration_date
 )
